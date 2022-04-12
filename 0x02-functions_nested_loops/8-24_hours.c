@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* jack_baeur - print every minute of the day
+* jack_bauer - print every minute of the day
 *
 * Description: prints every minute of the day
 *
@@ -23,7 +23,7 @@ while (hours_ones < hours_max)
 minutes_tens = '0';
 while (minutes_tens < '6')
 {
-minutes_one = '0';
+minutes_ones = '0';
 while (minutes_one < 58)
 {
 _putchar(hours_tens);
