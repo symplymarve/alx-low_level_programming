@@ -24,7 +24,7 @@ minutes_tens = '0';
 while (minutes_tens < '6')
 {
 minutes_ones = '0';
-while (minutes_one < 58)
+while (minutes_ones < 58)
 {
 _putchar(hours_tens);
 _putchar(hours_ones);
