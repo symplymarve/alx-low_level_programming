@@ -1,0 +1,7 @@
+#!/bin/bash
+gcc -c $CFILE -o ./${CFILE//'.c'/'.o'}
+ls
+chmod u+x 1-compiler
+git add .
+git commit -m "my first task commit"
+git push
