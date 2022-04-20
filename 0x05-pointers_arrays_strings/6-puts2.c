@@ -9,13 +9,16 @@
 
 void puts2(char *str)
 {
-int i = 0;
-while (str[i] != '\0')
+int count = 0;
+while (count >= 0 )
 {
-if (i % 2 == 0)
-putchar(str[i]);
-}
-i++;
-}
+if (str[count] == '\0')
+{
 putchar('\n');
+break;
+}
+if (count % 2 == 0)
+putchar(str[count]);
+count++;
+}
 }
