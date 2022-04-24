@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* *_strcat: function that concatenates two strings
+* *_strcat - function that concatenates two strings
 * @dest: param pointer to a char
 * @src: param pointer to a char
 * Return: return value of dest
@@ -16,7 +16,7 @@ int j;
 i = 0;
 j = 0;
 
- while (dest[i] != '\0')
+while (dest[i] != '\0')
 {
 i++;
 }
