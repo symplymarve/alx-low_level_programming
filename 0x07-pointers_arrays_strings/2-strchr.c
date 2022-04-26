@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
-* _strspn - function that gets the length of a prefix substring
+* _strchr - function that gets the length of a prefix substring
 * @s: the string to check
 * @c: the character we're looking for
 * Return: a pointer to the first occurance of the character @c in the string
