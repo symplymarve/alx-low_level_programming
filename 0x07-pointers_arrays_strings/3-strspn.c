@@ -22,7 +22,7 @@ if (s[i] == accept[j])
 c++;
 } 
 }
-else	
+else
 return (c);
 }
 return (c);
