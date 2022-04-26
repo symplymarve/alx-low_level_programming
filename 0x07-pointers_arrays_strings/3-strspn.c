@@ -20,7 +20,7 @@ for (j = 0; accept[j] != '\0'; j++)
 {
 if (s[i] == accept[j])
 c++;
-} 
+}
 }
 else
 return (c);
