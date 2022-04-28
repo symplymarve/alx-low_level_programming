@@ -20,17 +20,19 @@ return (1 + _strlen_recursion(s + 1));
  * Return: .
  */
 int comparator(char *s, int n1, int n2) 
-{if (*(s + n1) == *(s + n2))
+{
+if (*(s + n1) == *(s + n2))
 {
 if (n1 == n2 || n1 == n2 + 1)
 return (1);
 return (0 + comparator(s, n1 + 1, n2 - 1));
 } 
 return (0);
- /**
+}
+/**
  * is_palindrome - checks to see if a string is a palindrome
  * @s: the string to check
- * Return: 1 if s a palindrome, 0 if it's not
+ * Return: 1 if s is a palindrome, 0 if it's not
  */
 int is_palindrome(char *s)
 {  
