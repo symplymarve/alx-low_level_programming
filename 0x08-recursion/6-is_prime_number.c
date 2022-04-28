@@ -14,7 +14,7 @@ else if (a == b)
 return (1);
 else if (a > b)
 primeFinder(a, b + 1);
-return (1); 
+return (1);
 }
 /**
  * is_prime_number - tells us if an integer is a prime number or not
@@ -23,5 +23,5 @@ return (1);
  */
 int is_prime_number(int n) 
 {
-return (primeFinder(n, 2)); 
+return (primeFinder(n, 2));
 }
