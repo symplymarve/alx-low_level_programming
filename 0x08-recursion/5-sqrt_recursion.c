@@ -6,7 +6,7 @@
  * @b: The number to test for the square root of @a
  * Return: square root
  */
-int helper(int a, int b) 
+int helper(int a, int b)
 {
 if (b * b > a)
 return (-1);
@@ -21,9 +21,9 @@ return (1);
  * @n: the number to return the square root of
  * Return: the square root of @n
  */
-int _sqrt_recursion(int n) 
+int _sqrt_recursion(int n)
 {
 if (n == 0)
 return (0);
-return (helper(n, 1)); 
+return (helper(n, 1));
 }
