@@ -10,15 +10,11 @@
 
 int main(int argc, char *argv[])
 {
-int n, m, diff;
 if (argc != 3)
 {
 printf("Error\n");
-return (1);
+return (1); 
 }
-n = atoi(argv[1]);
-m = atoi(argv[2]);
-diff = n * m;
-printf("%i\n", diff);
-return (0);
+printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+return (0); 
 }
