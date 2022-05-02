@@ -9,7 +9,7 @@
 * Return: 0 - success.
 */
 
-int main(int argc, char *argv[]) 
+int main(int argc, char *argv[])
 {
 int cents, ncoins = 0;
 if (argc == 1 || argc > 2)
