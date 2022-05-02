@@ -2,11 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main - multiplies two numbers
- * @argc: argument counter
- * @argv: argument vector
- * Return: 0 if it works, 1 if there is an ERROR
- */
+* main - multiplies two numbers
+* @argc: argument counter
+* @argv: argument vector
+* Return: 0 if it works, 1 if there is an Error
+*/
+
 int main(int argc, char *argv[])
 {
 int n, m, diff;
