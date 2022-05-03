@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
-* main - prints the number of arguments passed into it
-* @argc: argument counter
-* @argv: argument vector
-* Return: 0
-*/
+ * main - prints the for the program.
+ * @argc: is a counter of argument for int.
+ * @argv: is a counter for value of the argument to char
+ * Return: Returns always success.
+**/
+
 int main(int argc, char *argv[])
 {
-int c;
 (void)argv;
-for (c = 0; c <= argc; c++)
-{}
-printf("%d\n", c - 2);
+
+printf("%d\n", (argc - 1));
+
 return (0);
 }
+
