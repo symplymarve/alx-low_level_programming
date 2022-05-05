@@ -1,0 +1,6 @@
+#include "main.h"
+#include <stdlib.h>
+
+/**
+ * _concat - function that concatenates two strings
+ * 
