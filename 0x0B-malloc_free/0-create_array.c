@@ -4,9 +4,8 @@
 /**
  * create_array - function that creates an array of char
  * and initializes it with a specific char
- * @c: the character to initialize the array with 
+ * @c: the character to initialize the array with
  * @size: the size of the array
- * Return: NULL if size = 0
  * Return: a pointer to the array, or NULL if it fails
  */
 
@@ -25,4 +24,3 @@ i++;
 }
 return (str);
 }
-    
