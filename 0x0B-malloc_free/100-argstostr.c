@@ -26,6 +26,7 @@ for (i = 0; i < ac; i++)
 {
 for (j = 0; av[i][j] != '\0'; j++)
 counter++;
+counter++;
 }
 counter++; /* to account for \n that needs to be added later */
 ar = malloc(sizeof(char) * counter);
