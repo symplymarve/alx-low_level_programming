@@ -5,7 +5,7 @@
  * _calloc - allocates memory for an array
  * @nmemb: the number of elements
  * @size: the size of that element type
- * Return: A pointer to the allocated memeory.
+ * Return: A pointer to the allocated memory.
  * NULL if nmemb or size is 0.
  */
 
@@ -17,8 +17,8 @@ if (size == 0 || nmemb == 0)
 return (NULL);
 ar = malloc(size * nmemb);
 if (ar == NULL)
-return (NULL); 
+return (NULL);
 for (i = 0; i < (size * nmemb); i++)
-ar[i] = 0; 
+ar[i] = 0;
 return (ar); 
 }
