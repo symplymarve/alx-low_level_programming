@@ -23,10 +23,10 @@ return (NULL);
 while (str[j])
 {
 ar[j] = str[j];
-j++; 
+j++;
 }
 ar[j] = 0;
-return (ar); 
+return (ar);
 }
 /**
 * new_dog - creates a new dog
@@ -35,7 +35,7 @@ return (ar);
 * @owner: owner of dog
 * Return: NULL if function fails
 */
-dog_t *new_dog(char *name, float age, char *owner) 
+dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *new;
 char *ncpy;
@@ -47,14 +47,14 @@ ncpy = _strdup(name);
 if (!ncpy && name)
 {
 free(new);
-return (NULL); 
+return (NULL);
 }
 ocpy = _strdup(owner);
 if (!ocpy && owner)
 {
 free(ncpy);
 free(new);
-return (NULL); 
+return (NULL);
 }
 new->name = ncpy;
 new->age = age;
