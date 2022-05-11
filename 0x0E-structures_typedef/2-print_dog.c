@@ -20,8 +20,8 @@ printf("Age: %.6f\n", d->age);
 if (d->owner)
 printf("Owner: %s\n", d->owner);
 else
-printf("Owner: (nil)\n"); 
+printf("Owner: (nil)\n");
 }
 else
-return; 
+return;
 }
