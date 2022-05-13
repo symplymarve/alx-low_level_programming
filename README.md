@@ -1,1 +1,1 @@
-my structure readme
+my function pointer readme
