@@ -6,40 +6,40 @@
  * @list: the type
  * Return: nothing
  */
-void chk_char(va_list list) 
-{  
-printf("%c", va_arg(list, int)); 
+void chk_char(va_list list)
+{
+printf("%c", va_arg(list, int));
 }
 /**
  * chk_int - prints the int
  * @list: the type
  * Return: nothing
  */
-void chk_int(va_list list) 
-{  
-printf("%i", va_arg(list, int)); 
+void chk_int(va_list list)
+{
+printf("%i", va_arg(list, int));
 }
 /**
  * chk_float - prints the float
  * @list: the type
  * Return: nothing
  */
-void chk_float(va_list list)  
+void chk_float(va_list list)
 {
-printf("%f", va_arg(list, double)); 
+printf("%f", va_arg(list, double));
 }
 /**
  * chk_string - prints the string
  * @list: the type
  * Return: nothing
  */
-void chk_string(va_list list)  
+void chk_string(va_list list)
 {
 char *str;
 str = va_arg(list, char *);
 if (str == NULL)
 str = "(nil)";
-printf("%s", str); 
+printf("%s", str);
 }
 /**
  * print_all - prints anything
